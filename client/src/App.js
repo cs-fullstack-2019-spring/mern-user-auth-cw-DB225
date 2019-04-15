@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import './App.css';
+import MainPage from "./MainPage";
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+          <p>.O/</p>
+          <p>/))</p>
+          <p>/.\</p>
+        <MainPage />
+      </div>
+    );
+  }
+}
+
+export default App;
